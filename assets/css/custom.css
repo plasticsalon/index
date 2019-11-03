@@ -1,0 +1,87 @@
+.ld-fh-item
+{
+    font-family: Prata;
+    font-size: 14px;
+
+    width: 100%;
+}
+
+.ld-fh-item .split-inner,
+.ld-fh-item .split-txt
+{
+    display: flex;
+
+    align-items: center;
+}
+
+.ld-fh-item .split-txt
+{
+    flex: 1;
+}
+
+.ld-fh-line-title
+{
+    max-width: 45%;
+
+    flex-shrink: 0;
+}
+
+.ld-fh-line
+{
+    height: 14px;
+
+    opacity: .4;
+    border-color: inherit;
+    border-bottom: 1px dotted;
+
+    flex-grow: 1;
+}
+
+.ld-fh-description
+{
+    max-width: 45%;
+
+    text-align: right;
+
+    flex-shrink: 0;
+}
+
+.btn-icon-instagram .btn-icon
+{
+    background-color: #e1306c;
+}
+
+.btn-icon-ripple.btn-icon-instagram .btn-icon::before
+{
+    border: 1px solid #e1306c;
+}
+
+.btn-icon-vk .btn-icon
+{
+    background-color: #4c75a3;
+}
+
+.btn-icon-yandex .btn-icon
+{
+    background-color: #f00;
+}
+
+.btn-icon-google .btn-icon
+{
+    background-color: #4285f4;
+}
+
+.btn-icon-whatsapp .btn-icon
+{
+    background-color: #25d366;
+}
+
+.btn-icon-ripple.btn-icon-whatsapp .btn-icon::before
+{
+    border: 1px solid #25d366;
+}
+
+.btn-icon-telegram .btn-icon
+{
+    background-color: #34b7f1;
+}
