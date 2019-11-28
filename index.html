@@ -1829,7 +1829,7 @@
 												<span class="btn-icon font-size-20"><i class="fa fa-whatsapp"></i></span>
 											</span>
 										</a>
-										<a href="https://t.me/Olgakraynova" target="_blank" class="btn btn-naked text-uppercase btn-icon-left btn-icon-lg btn-icon-circle btn-icon-solid btn-icon-telegram font-size-13 font-weight-bold ltr-sp-1 mb-5">
+										<a href="#" class="btn btn-naked text-uppercase btn-icon-left btn-icon-lg btn-icon-circle btn-icon-solid btn-icon-telegram font-size-13 font-weight-bold ltr-sp-1 mb-5" onclick="onTelegram()">
 											<span>
 												<span class="btn-icon font-size-20"><i class="fa fa-telegram"></i></span>
 											</span>
@@ -1878,6 +1878,12 @@
 		<script src="./assets/js/theme-vendors.js"></script>
 		<script src="./assets/vendors/pagePiling/dist/jquery.pagepiling.min.js"></script>
 		<script src="./assets/js/theme.min.js"></script>
+		<script>
+			function onTelegram() {
+				let confirm = window.confirm('Если ссылка не открывается, напишите напрямую пользователю @Olgakraynova')
+				if (confirm) window.location = 'https://t.me/Olgakraynova'
+			}
+		</script>
 
 	</body>
 
